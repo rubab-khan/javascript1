@@ -1,0 +1,43 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: blanchedalmond;
+    color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+    background-color: goldenrod;
+    color: aqua;
+    padding: 15px;
+    text-align: center;
+    text-transform: capitalize;
+}
+main{
+    text-align: center;
+    margin: 180px auto;
+}
+button{
+    padding: 15px 20px;
+    margin: 10px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: goldenrod;
+    color: aqua;
+    border-radius: 4px;
+}
+button:hover{
+    background-color: green;
+}
+button:visited{
+    color: palevioletred;
+}
+footer{
+    background-color: black;
+    color: aqua;
+    text-align: center;
+    padding: 12px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
